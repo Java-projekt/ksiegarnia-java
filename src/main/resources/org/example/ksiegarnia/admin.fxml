@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="430.0" prefWidth="635.0" style="-fx-background-color: 353B3C;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.ksiegarnia.HelloController">
+    <children>
+        <AnchorPane layoutX="60.0" layoutY="105.0" prefHeight="290.0" prefWidth="510.0" style="-fx-background-color: C6C7C4;" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="60.0" AnchorPane.rightAnchor="60.0" AnchorPane.topAnchor="105.0">
+            <children>
+                <Label fx:id="lbZaloguj" layoutX="172.0" layoutY="29.0" prefHeight="54.0" prefWidth="165.0" text="ADMIN">
+                    <font>
+                        <Font size="30.0" />
+                    </font>
+                    <effect>
+                        <Glow />
+                    </effect>
+                </Label>
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>
