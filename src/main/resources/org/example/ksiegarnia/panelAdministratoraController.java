@@ -19,11 +19,17 @@ import javafx.scene.control.TextField;
  *
  * @author chmur
  */
-public class panelUzytkownikaController implements Initializable {
+public class panelAdministratoraController implements Initializable {
 
 
     @FXML
     private Label lblPanelUzytkownika;
+    @FXML
+    private TableColumn<?, ?> tabColumnTytul;
+    @FXML
+    private TableColumn<?, ?> tabColumnAutor;
+    @FXML
+    private TableColumn<?, ?> tabColumnCena;
     @FXML
     private Label lbTytul;
     @FXML
@@ -52,12 +58,6 @@ public class panelUzytkownikaController implements Initializable {
     private Button btnSzukaj;
     @FXML
     private Button btnWyloguj;
-    @FXML
-    private TableColumn<Book, String> tabColumnTytul;
-    @FXML
-    private TableColumn<Book, String> tabColumnAutor;
-    @FXML
-    private TableColumn<Book, Double> tabColumnCena;
     /**
      * Initializes the controller class.
      */
