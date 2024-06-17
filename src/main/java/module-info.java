@@ -1,6 +1,7 @@
 module org.example.ksiegarnia {
     requires javafx.controls;
     requires javafx.fxml;
+    requires java.base;
 
     requires org.hibernate.orm.core;
     requires java.sql;
