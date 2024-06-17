@@ -17,8 +17,10 @@
                <children>
                   <TableView prefHeight="237.0" prefWidth="253.0">
                     <columns>
+                       <TableColumn fx:id="tabColumnId_ksiazki" prefWidth="116.79999548196793" text="ID_ksiazki" />
                       <TableColumn fx:id="tabColumnTytul" prefWidth="116.79999548196793" text="Tytuł" />
                       <TableColumn fx:id="tabColumnAutor" prefWidth="64.79998779296875" text="Autor" />
+                       <TableColumn fx:id="tabColumnWydawnictwo" prefWidth="116.79999548196793" text="Wydawnictwo" />
                         <TableColumn fx:id="tabColumnCena" prefWidth="35.20001220703125" text="Cena" />
                         <TableColumn prefWidth="37.5999755859375" text="Usuń" />
                     </columns>

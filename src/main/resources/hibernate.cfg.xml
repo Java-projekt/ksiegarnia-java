@@ -30,5 +30,6 @@
 
         <!-- List of annotated classes -->
         <!-- <mapping class="com.yourpackage.YourEntityClass"/> -->
+        <mapping class="org.example.ksiegarnia.Ksiazka"/>
     </session-factory>
 </hibernate-configuration>
