@@ -33,19 +33,13 @@ public class HelloController {
     private Label lbError;
 
     @FXML
-    protected void onWelcomeButtonClick() {
-        welcomeText.setText("Welcome to JavaFX Application!");
-    }
-
-    @FXML
     protected void onHelloButtonClick(ActionEvent event) {
         String login = tfLogin.getText();
         String haslo = tfHaslo.getText();
 
-
         if (checkLogin(login, haslo)) {
             try {
-                FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("admin.fxml"));
+                FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("panelAdministratora.fxml"));
                 Parent root = (Parent) fxmlLoader.load();
                 Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
                 stage.setScene(new Scene(root));

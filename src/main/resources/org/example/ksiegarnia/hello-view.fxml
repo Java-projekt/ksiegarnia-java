@@ -24,7 +24,7 @@
             <TextField fx:id="tfLogin" layoutX="117.0" layoutY="114.0" prefHeight="26.0" prefWidth="348.0" style="-fx-background-color: EEF0F2;" />
             <Label fx:id="lbLogin" layoutX="51.0" layoutY="110.0" prefHeight="33.0" prefWidth="65.0" text="Login:" />
             <Label fx:id="lbHaslo" layoutX="50.0" layoutY="161.0" prefHeight="33.0" prefWidth="65.0" text="Hasło:" />
-            <PasswordField fx:id="passwordField" layoutX="116.0" layoutY="165.0" prefHeight="26.0" prefWidth="348.0" style="-fx-background-color: EEF0F2;" />
+            <PasswordField fx:id="tfHaslo" layoutX="116.0" layoutY="165.0" prefHeight="26.0" prefWidth="348.0" style="-fx-background-color: EEF0F2;" />
          </children>
       </AnchorPane>
       <Label layoutX="204.0" layoutY="14.0" prefHeight="74.0" prefWidth="228.0" text="KSIĘGARNIA" textFill="#eef0f2">
